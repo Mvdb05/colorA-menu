@@ -1,4 +1,5 @@
 import random
+import tkinter as tk
 
 wordlist = ["Python", "Java", "HTML", "CSS"]
 word = random.choice(wordlist)
@@ -83,7 +84,6 @@ class Lingo:
                 else:
                     print("?", end="")
             print("")
-            
-# play game
-lingo = Lingo()
-lingo.guess_letter()
+
+
+
